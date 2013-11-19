@@ -15,7 +15,7 @@ It should look something like this:
 #####Additional Credits:
 A [post by Chris Lowis](http://blog.chrislowis.co.uk/2013/06/05/playing-notes-web-audio-api.html) was really helpful in understanding the WebAudio API.
 
-Built with [Leaflet.js](http://leafletjs.com/) and the [AnimatedMarker Plug-in](https://github.com/openplans/Leaflet.AnimatedMarker) by Aaron Ogle, whose example was also used as a starting point for this demo.
+Built with [Leaflet.js](http://leafletjs.com/), the [GeometryUtil plug-in](https://github.com/makinacorpus/Leaflet.GeometryUtil), and the [AnimatedMarker Plug-in](https://github.com/openplans/Leaflet.AnimatedMarker) by Aaron Ogle, whose example was also used as a starting point for this demo.
 
 
 
