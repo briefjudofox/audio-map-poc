@@ -44,7 +44,6 @@ $(document).ready(function () {
         $(this._shadow).fadeOut();
         $(this._icon).fadeOut(3000, function(){
           vca.gain.value = 0;
-          //map.removeLayer(this);
         });
       }
     }).on("move",function(e){
@@ -53,9 +52,7 @@ $(document).ready(function () {
         var key =  e.target._leaflet_id + '_' +pt.layer._leaflet_id;
         if($.inArray(key, nearestPts) == -1){
           nearestPts.push(key);
-         //console.log( pt.layer.getRadius());
           pt.layer.setRadius( 10);
-          console.log(pt.layer.options.frequency);
           playFrequency(pt.layer.options.frequency);
         }
       });
@@ -82,7 +79,7 @@ function initSynth(){
   /* VCO */
   vco = audioContext.createOscillator();
   vco.type = vco.SINE;
-  vco.frequency.value = this.frequency;
+  vco.frequency.value = 440.0;
   vco.start(0);
 
   /* VCA */
