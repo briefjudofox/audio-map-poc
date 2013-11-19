@@ -4,7 +4,7 @@ Audio Map Proof of Concept
 Quick proof of concept for audio map.  Random points are added to the map where each color represents a different frequency.  3 pins animate along pre-defined route.  As the pins move the corresponding frequency is played for the closest random point using the [WebAudio API](https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html).
 
 
-###You try out the demo [Here](http://briefjudofox.github.io/audio-map-poc/web/) (Chrome and FireFox only for now)
+###You can try out the demo [Here](http://briefjudofox.github.io/audio-map-poc/web/) (Chrome and FireFox only for now)
 
 
 It should look something like this:
